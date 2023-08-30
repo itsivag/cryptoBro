@@ -5,7 +5,7 @@ const port = 3000;
 app.get("/", (req, res) => {
   fetch("https://rest.coinapi.io/v1/exchangerate/BTC", {
     headers: {
-      "X-CoinAPI-Key": "AF5CBDEA-437A-48B2-B087-E1D835DE196D",
+      "X-CoinAPI-Key": "ADD YOUR KEY HERE",
     },
   })
     .then((response) => response.json())
