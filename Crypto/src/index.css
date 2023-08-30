@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #222831;
+  color: white;
+  margin: 16px;
+  padding: 10px;
+}
+
+@keyframes from-left-to-right {
+  0% {
+    translate: -100%;
+  }
+  100% {
+    translate: 100%;
+  }
+}
+.skeleton-animation {
+  animation: from-left-to-right 2s infinite;
+}
